@@ -44,7 +44,6 @@ def receive_commands():
 
 
 def main():
-    port11 = str(input('>>>'))
-    socket_create(port11)
+    socket_create(int(input('>>>')))
     socket_connect()
     receive_commands()

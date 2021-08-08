@@ -8,6 +8,7 @@ print('(2)connect server')
 print('\n \n \n')
 a = str(input('>>>'))
 if a == "1":
+    os.system('cls')
     print("____   _                              _ \n|  _ \ (_) ___   ___   ___   _ __   __| | \n| | | || |/ __| / __| / _ \ | '__| / _` | \n| |_| || |\__ \| (__ | (_) || |   | (_| | \n|____/ |_||___/ \___| \___/ |_|    \__,_|")
     print('\n \n \n')
     print('(1)token stealer')
@@ -15,10 +16,12 @@ if a == "1":
     print('\n \n \n')
     a = str(input('>>>'))
     if a == "1":
+        os.system('cls')
         print("____   _                              _ \n|  _ \ (_) ___   ___   ___   _ __   __| | \n| | | || |/ __| / __| / _ \ | '__| / _` | \n| |_| || |\__ \| (__ | (_) || |   | (_| | \n|____/ |_||___/ \___| \___/ |_|    \__,_|")
         print('\n \n \n')
         a = str(input('ID>>>'))
 elif a == '2':
+    os.system('cls')
     print("  ____                                   _  \n/ ___|  ___   _ __   _ __    ___   ___ | |_   ___  _ __ \n| |     / _ \ | '_ \ | '_ \  / _ \ / __|| __| / _ \| '__|\n| |___ | (_) || | | || | | ||  __/| (__ | |_ |  __/| |\n \____| \___/ |_| |_||_| |_| \___| \___| \__| \___||_|   ")
     print('\n \n \n')
     print('(1)server_connecter')
@@ -28,5 +31,7 @@ elif a == '2':
     if a == '1':
         exit()
     if a == '2':
-        exit()
+        os.system('cls')
+        os.system('python /tech/server/port_finder.py')
+
 print('exit')

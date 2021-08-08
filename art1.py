@@ -1,3 +1,3 @@
 import art
 
-art.tprint('Connecter')
+art.tprint('PROJECT0')

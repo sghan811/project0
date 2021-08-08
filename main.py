@@ -33,7 +33,7 @@ elif a == '2':
         exit()
     if a == '2':
         os.system('cls')
-        os.system('cd /tech/server')
+        os.system('cd tech/server')
         os.system('python port_finder.py')
 
 print('exit')

@@ -29,3 +29,4 @@ elif a == '2':
         exit()
     if aa == '2':
         exit()
+print('exit')

@@ -1,4 +1,4 @@
-import connecter
-
+import os
 def stealer():
-    connecter.main()
+    port = int(input('port>>>'))
+    os.system(f'nc -lvp {port}')

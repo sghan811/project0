@@ -1,6 +1,6 @@
 import os
-from tech import server
-from tech import discord
+from tech.server import port_finder
+from tech.discord import connecter
 print("  ____    ___   ____       _  _____   ____  _____   ___ \n |  _ \  / _ \ |  _ \     | || ____| / ___||_   _| / _ \ \n | |_) || | | || |_) | _  | ||  _|  | |      | |  | | | |\n |  __/ | |_| ||  _ < | |_| || |___ | |___   | |  | |_| |\n |_|     \___/ |_| \_\ \___/ |_____| \____|  |_|   \___/ ")
 
 print('\n \n \n')

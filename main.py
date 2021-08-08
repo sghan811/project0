@@ -6,27 +6,27 @@ print('\n \n \n')
 print('(1)discord')
 print('(2)connect server')
 print('\n \n \n')
-a = input('>>>')
+a = str(input('>>>'))
 if a == "1":
     print("____   _                              _ \n|  _ \ (_) ___   ___   ___   _ __   __| | \n| | | || |/ __| / __| / _ \ | '__| / _` | \n| |_| || |\__ \| (__ | (_) || |   | (_| | \n|____/ |_||___/ \___| \___/ |_|    \__,_|")
     print('\n \n \n')
     print('(1)token stealer')
     print('(2)bot controler')
     print('\n \n \n')
-    aa = input('>>>')
-    if aa == "1":
+    a = str(input('>>>'))
+    if a == "1":
         print("____   _                              _ \n|  _ \ (_) ___   ___   ___   _ __   __| | \n| | | || |/ __| / __| / _ \ | '__| / _` | \n| |_| || |\__ \| (__ | (_) || |   | (_| | \n|____/ |_||___/ \___| \___/ |_|    \__,_|")
         print('\n \n \n')
-        aaa = input('ID>>>')
+        a = str(input('ID>>>'))
 elif a == '2':
     print("  ____                                   _  \n/ ___|  ___   _ __   _ __    ___   ___ | |_   ___  _ __ \n| |     / _ \ | '_ \ | '_ \  / _ \ / __|| __| / _ \| '__|\n| |___ | (_) || | | || | | ||  __/| (__ | |_ |  __/| |\n \____| \___/ |_| |_||_| |_| \___| \___| \__| \___||_|   ")
     print('\n \n \n')
     print('(1)server_connecter')
     print('(2)port_finder')
     print('\n \n \n')
-    aa = input('>>>')
-    if aa == '1':
+    a = str(input('>>>'))
+    if a == '1':
         exit()
-    if aa == '2':
+    if a == '2':
         exit()
 print('exit')

@@ -13,19 +13,19 @@ if a == "1":
     print('(1)token stealer')
     print('(2)bot controler')
     print('\n \n \n')
-    a = input('>>>')
-    if a == "1":
+    aa = input('>>>')
+    if aa == "1":
         print("____   _                              _ \n|  _ \ (_) ___   ___   ___   _ __   __| | \n| | | || |/ __| / __| / _ \ | '__| / _` | \n| |_| || |\__ \| (__ | (_) || |   | (_| | \n|____/ |_||___/ \___| \___/ |_|    \__,_|")
         print('\n \n \n')
-        a = input('ID>>>')
+        aaa = input('ID>>>')
 elif a == '2':
     print("  ____                                   _  \n/ ___|  ___   _ __   _ __    ___   ___ | |_   ___  _ __ \n| |     / _ \ | '_ \ | '_ \  / _ \ / __|| __| / _ \| '__|\n| |___ | (_) || | | || | | ||  __/| (__ | |_ |  __/| |\n \____| \___/ |_| |_||_| |_| \___| \___| \__| \___||_|   ")
     print('\n \n \n')
     print('(1)server_connecter')
     print('(2)port_finder')
     print('\n \n \n')
-    a = input('>>>')
-    if a == '1':
+    aa = input('>>>')
+    if aa == '1':
         exit()
-    if a == '2':
+    if aa == '2':
         exit()

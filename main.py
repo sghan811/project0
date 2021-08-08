@@ -1,6 +1,10 @@
 import os
-from tech.server import port_finder
-from tech.discord import connecter
+import os, sys
+currDir = os.path.dirname(os.path.realpath(__file__))
+rootDir = os.path.abspath(os.path.join(currDir, '..'))
+if rootDir not in sys.path: # add parent dir to paths
+    sys.path.append(rootDir)
+import tech
 print("  ____    ___   ____       _  _____   ____  _____   ___ \n |  _ \  / _ \ |  _ \     | || ____| / ___||_   _| / _ \ \n | |_) || | | || |_) | _  | ||  _|  | |      | |  | | | |\n |  __/ | |_| ||  _ < | |_| || |___ | |___   | |  | |_| |\n |_|     \___/ |_| \_\ \___/ |_____| \____|  |_|   \___/ ")
 
 print('\n \n \n')

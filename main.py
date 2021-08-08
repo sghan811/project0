@@ -1,5 +1,6 @@
 import os, sys
 import tech
+from tech.server import port_finder
 print(" ____   ____    ___       _  _____   ____  _____   ___\n|  _ \ |  _ \  / _ \     | || ____| / ___||_   _| / _ \ \n| |_) || |_) || | | | _  | ||  _|  | |      | |  | | | |\n|  __/ |  _ < | |_| || |_| || |___ | |___   | |  | |_| |\n|_|    |_| \_\ \___/  \___/ |_____| \____|  |_|   \___/ ")
 
 print('\n \n \n')
@@ -32,6 +33,7 @@ elif a == '2':
         exit()
     if a == '2':
         os.system('cls')
-        os.system('python /tech/server/port_finder.py')
+        os.system('cd /tech/server')
+        os.system('python port_finder.py')
 
 print('exit')
